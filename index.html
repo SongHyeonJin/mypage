@@ -88,7 +88,7 @@
         $(document).ready(function () {
             fetch("http://spartacodingclub.shop/sparta_api/weather/seoul").then(res => res.json()).then(data => {
                 let temp = data['temp']
-
+                //기존에 배웠던 방식
                 // $('#temp').empty()
                 // let text = `<span>${temp}</span>`
                 // $('#temp').append(text)
